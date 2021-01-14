@@ -23,6 +23,7 @@ const notesOperator = {
         
         this.attachNote(textAreaValue)
         document.querySelector("#newNoteDiv").style.display = "none"
+        document.querySelector("#newNoteDiv > form").reset();
     },
 
     closeNote: function () {
